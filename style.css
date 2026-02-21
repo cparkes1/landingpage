@@ -41,7 +41,7 @@ a {
 .headliner_left {
     flex-grow: 1;
     width: 50%;
-    padding: 30px 60px;
+    padding: 30px 60px 30px 0;
 }
 
 .headliner_header {
@@ -79,4 +79,44 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card_area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px 75px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card_holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+.card_box {
+    border: #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card_text {
+    text-align: center;
 }
